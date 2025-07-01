@@ -5,7 +5,7 @@ história e estilo de um espaço que valoriza a beleza e a autoestima feminina.
 
 ## 🌐 Link do Projeto
 
->
+>danitrovao.github.io/StudioCeliaTrovao/
 
 ## 📸 Captura de Tela
 ![Captura de ecrã 2025-07-01 223159](https://github.com/user-attachments/assets/50761f2e-79f1-4d86-aa09-ccc4ab7f4bd6)
