@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Célia Trovão</title>
+    <meta name="description" content="Salão de cabeleireiro que oferece tratamentos de beleza, coloração e penteados. Agende seu horário hoje mesmo!">
+    <meta name="keywords" content="salão de cabeleireiro, cabeleireiro, estilista, beleza, cortes de cabelo, coloração, estilo, reserva">
+
+    <link rel="icon" href="https://www.codewithfaraz.com/tools/placeholder?size=32x32&bgColor=E8D5C4&textColor=78350F&text=GG" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80"> 
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">     
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contatos</a></li>
+                </ul>
+            </div>
+      </div>
+  </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Studio Célia Trovão</h1>
+            <p>Onde cada detalhe é pensado para realçar a beleza da mulher que você é.</p>
+            <a href="https://wa.me/5511971169169?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20no%20Studio%20Célia%20Trovão." 
+                class="btn btn-brand btn-lg" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Agende o seu horário <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossa Essência</h2>
+                <p>Mais do que um salão, um espaço de cuidado, beleza e conexão feminina.</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/Studio2.jpg" alt="Salon Interior" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Nossa história</h3>
+                    <p>Fundado com o propósito de oferecer um atendimento acolhedor, exclusivo e de alta qualidade, o Studio Célia Trovão nasceu do desejo de transformar não só o visual, 
+                        mas também a autoestima de cada mulher que passa por aqui.
+                        Acreditamos que cuidar da beleza é também cuidar da alma — por isso, cada detalhe foi pensado para oferecer uma experiência única, com carinho, atenção e profissionalismo.</p>
+                    <h4>Missão e Valores</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Produtos de excelente qualidade.</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Aprendizado constante e inovação.</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Ambiente acolhedor e relaxante.</li>
+                        <li><i class="fas fa-check-circle text-primary me-2"></i> Valorização da beleza única de cada mulher.</li>
+                    </ul>
+                     <a href="https://wa.me/5511971169169?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20no%20Studio%20Célia%20Trovão." 
+                        class="btn btn-outline-brand mt-3" 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        Agende sua visita </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Excelência em cuidados de beleza, com atendimento personalizado para você.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-cut"></i></div>
+                        <h4>Cortes & Penteados</h4>
+                        <p>Do clássico ao moderno, criamos o visual que combina com você.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-palette"></i></div>
+                        <h4>Coloração</h4>
+                        <p>De luzes sutis a transformações marcantes, com produtos de altíssima qualidade.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-spa"></i></div>
+                        <h4>Tratamentos Especiais</h4>
+                        <p>Hidratação e tratamentos profundos para um cabelo saudável e vibrante.</p>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-female"></i></div>
+                        <h4>Noivas & Eventos</h4>
+                        <p>Penteados elegantes e personalizados para casamentos e ocasiões especiais.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-leaf"></i></div>
+                        <h4>Cuidados com Cabelos Naturais</h4>
+                        <p>Realçando a beleza natural dos seus fios com cuidado e técnica.</p>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-hand-sparkles"></i></div>
+                        <h4>Manicure & Pedicure</h4>
+                        <p>Realce sua beleza com os nossos cuidados especiais para mãos e pés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeria</h2>
+                <p>Beleza é um reflexo do que sentimos — e aqui, você vai se sentir maravilhosa.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img1.png" alt="Hairstyle 1" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img2.jpg" alt="Hairstyle 2" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img3.png" alt="Hairstyle 3" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img4.png" alt="Hairstyle 4" class="img-fluid">
+                    </a>
+                </div>
+                 <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img5.png" alt="Hairstyle 5" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img6.png" alt="Hairstyle 6" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img7.png" alt="Hairstyle 7" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
+                        <img src="img/img8.png" alt="Hairstyle 8" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="galleryModal1" tabindex="-1" aria-labelledby="galleryModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal1Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-1.webp" class="img-fluid" alt="Hairstyle 1 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal2" tabindex="-1" aria-labelledby="galleryModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal2Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-2.webp" class="img-fluid" alt="Hairstyle 2 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal3" tabindex="-1" aria-labelledby="galleryModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal3Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-3.webp" class="img-fluid" alt="Hairstyle 3 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal4" tabindex="-1" aria-labelledby="galleryModal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal4Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-4.webp" class="img-fluid" alt="Hairstyle 4 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal5" tabindex="-1" aria-labelledby="galleryModal5Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal5Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-5.webp" class="img-fluid" alt="Hairstyle 5 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal6" tabindex="-1" aria-labelledby="galleryModal6Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal6Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-6.webp" class="img-fluid" alt="Hairstyle 6 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal7" tabindex="-1" aria-labelledby="galleryModal7Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal7Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-7.webp" class="img-fluid" alt="Hairstyle 7 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="galleryModal8" tabindex="-1" aria-labelledby="galleryModal8Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModal8Label">Style Showcase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/Hair%20Salon%20Website/hair-style-8.webp" class="img-fluid" alt="Hairstyle 8 Large">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row align-items-start justify-content-center">
+            <div class="col-lg-6 contact-info mb-4">
+                <h3>Studio Célia Trovão</h3>
+                <p><i class="fas fa-map-marker-alt icon"></i>Rua Pedra Branca do Amaparí, 139 - São Mateus, SP.</p>
+                <p><i class="fas fa-phone icon"></i>(11) 97116-9169</p>
+                <p><i class="fas fa-envelope icon"></i>franciscacelia@outlook.com</p>
+                <h4 class="mt-4">Visite as nossas redes</h4>
+                <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8429207331606!2d-46.43101492548549!3d-23.609965763378142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6f386996ef85%3A0x1ab24d5a0e1da61a!2sR.%20Pedra%20Branca%20do%20Amapari%20-%20Jardim%20Iguatemi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008381-173%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1749488096044!5m2!1spt-PT!2spt" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Studio Célia Trovão</p>
+            <p>Feito com <i class="fas fa-heart text-danger"></i> por Daniela Trovão</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
